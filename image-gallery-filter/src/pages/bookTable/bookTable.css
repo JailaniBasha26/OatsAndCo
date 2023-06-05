@@ -1,0 +1,64 @@
+/* .contact-parkingAvailable {
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+} */
+
+.bookTable-underline {
+    width: 16rem;
+    height: 0.25rem;
+    background: var(--clr-gold);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section.bookTable {
+    padding-top: 72px;
+    padding-bottom: 0px;
+}
+
+.bookTable-GuestCount-VisitingDateTime {
+    display: -webkit-inline-flex;
+    gap: 54px;
+    margin-bottom: 18px;
+}
+
+.bookTable-GuestCount,
+.bookTable-Calendar,
+.bookTable-Time {
+    width: 33.33%;
+}
+
+.bookTable-GuestCountDropDown>.p-dropdown {
+    width: 88%;
+    height: 40px;
+    background: #f4f7f6;
+}
+
+.bookTable-GuestCountDropDown {
+    margin-top: -2px;
+}
+
+/* .bookTable-GuestCountDropDown>.p-dropdown.p-component.p-inputwrapper.w-full.md\:w-14rem.p-inputwrapper-filled>.p-hidden-accessible.p-dropdown-hidden-select>span {
+    margin-top: -3px !important;
+} */
+
+span.p-dropdown-label.p-inputtext {
+    margin-top: -3px;
+}
+
+input.p-inputtext.p-component {
+    background: #f4f7f6;
+}
+
+#bookATablePageTitle {
+    font-family: 'MyriadProBold';
+}
+
+#bookATableNpteMainDiv {
+    margin-top: 4%;
+}

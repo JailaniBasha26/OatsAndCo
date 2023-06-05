@@ -1,0 +1,61 @@
+.contact-parkingAvailable {
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 2;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: #00dac2;
+    border-radius: 15px;
+    cursor: context-menu;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.contactUsPageTxt {
+    color: black;
+    font-family: 'MyriadProRegular';
+    text-decoration: none;
+    display: flex;
+}
+
+.contact-contactUsBtn {
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 2;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: #fc72a6;
+    border-radius: 15px;
+    display: none;
+}
+
+@media screen and (max-width:767px) {
+    .contact-contactUsBtn {
+        margin-bottom: 8px;
+        text-align: center;
+        font-size: 22px;
+        line-height: 1;
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        background: #fc72a6;
+        border-radius: 15px;
+        display: inherit !important;
+        padding: 10px;
+    }
+}
+
+#contactUsPageTitle,
+.contactUsPageGetInTouch,
+.contact-parkingAvailable,
+.test9 {
+    font-family: 'MyriadProBold';
+}
+
+.conatcUsPageGetInTouchPara {
+    font-family: 'MyriadProRegular';
+}

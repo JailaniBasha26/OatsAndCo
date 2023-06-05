@@ -1,0 +1,104 @@
+.tags {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: rgb(43, 92, 226);
+}
+
+.tag {
+    outline: none;
+    border: none;
+    color: #eee;
+    margin: 0px 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+
+.containerGallery {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+
+.image-card {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.image {
+    width: 100%;
+}
+
+.SRLPrevButton::after,
+.SRLPrevButton::before,
+.SRLNextButton::after,
+.SRLNextButton::before,
+.SRLAutoplayButton::after,
+.SRLAutoplayButton::before,
+.SRLThumbnailsButton::after,
+.SRLThumbnailsButton::before,
+.SRLDownloadButton::after,
+.SRLDownloadButton::before,
+.SRLExpandButton::after,
+.SRLExpandButton::before,
+.SRLCloseButton::after,
+.SRLCloseButton::before,
+.SRLZoomOutButton::after,
+.SRLZoomOutButton::before {
+    height: 0;
+    width: 0;
+    border-color: transparent;
+    border-style: none;
+}
+
+/* .css-1eqfn0t {
+    height: 31em !important;
+} */
+
+.SRLPrevButton:hover,
+.SRLNextButton:hover,
+.SRLAutoplayButton:hover,
+.SRLThumbnailsButton:hover,
+.SRLDownloadButton:hover,
+.SRLExpandButton:hover,
+.SRLCloseButton:hover,
+.SRLZoomOutButton:hover {
+    color: #353535;
+    background-color: #00dac2;
+    border-color: #00dac2;
+}
+
+.SRLElementWrapper {
+    margin-top: 3em;
+}
+
+.css-1eqfn0t {
+    cursor: context-menu !important;
+}
+
+.react-transform-wrapper.transform-component-module_wrapper__1_Fgj,
+.react-transform-component.transform-component-module_content__2jYgh,
+.transform-component-module_content__2jYgh img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto !important;
+    height: 31em !important;
+}
+
+#galleryPageTitle {
+    padding-bottom: 0%;
+}
+
+#galleryPageTitleText {
+    font-family: 'MyriadProBold';
+}

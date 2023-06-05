@@ -1,0 +1,153 @@
+.topnav {
+    overflow: hidden;
+    /* background-color: black; */
+    margin-top: 2%;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 897px) {
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+        width: 67px;
+    }
+
+    #headerMenu {
+        margin-top: 7em;
+    }
+}
+
+@media only screen and (max-width: 1107px) and (min-width: 897px) {
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 9px 9px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+    .headerMenus {
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+}
+
+@media only screen and (min-width: 897px) {
+    #headerLogoWeb {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 897px) {
+    #headerLogoMobile {
+        display: none;
+    }
+
+    .containerGallery {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .css-1eqfn0t {
+        height: 20em !important;
+    }
+}
+
+@media screen and (max-width: 897px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 67px;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    a.logo.w-nav-brand.w--current {
+        width: 80%;
+        /* margin-bottom: -48px; */
+        margin-top: -2%;
+    }
+
+    .headerLogo {
+        height: 7em;
+        max-width: 82%;
+        position: absolute;
+    }
+}
+
+.navBarInsideWrapper {
+    /* padding: 3%;
+    padding-left: 4%; */
+}
+
+#headerPhoneTag {
+    margin-left: 15%;
+    color: black;
+}
+
+@media screen and (max-width: 1491px) {
+    #headerPhoneTag {
+        margin-left: 0%;
+    }
+}
+
+/* @media screen and (max-width: 1372px) {
+    #headerPhoneTag {
+        margin-left: 12%;
+    }
+} */
+
+/* @media screen and (max-width: 1204px) {
+    #headerPhoneTag {
+        margin-left: 4%;
+    }
+} */
+
+.headerLogo {
+    /* height: 7em;
+    max-width: 82%; */
+    /* position: absolute; */
+}
+
+.headerMenus {
+    padding-left: 33%;
+    padding-right: 9%;
+}
+
+.headerMenus>a {
+    font-family: 'MyriadProBold';
+}
