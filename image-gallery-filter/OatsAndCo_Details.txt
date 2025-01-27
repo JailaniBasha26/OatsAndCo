@@ -1,0 +1,19 @@
+Gmail
+Email ID:   reservations.oatsandco@gmail.com
+Password:   Pr!me123
+SMTP pwd:   zzmh lpzz fhpo yaoe
+
+IONOS
+Email ID:   info@oatsandco.ae
+Password:   Oats&Co2023
+SMTP pwd:   084DB08E3DBCDC9C29BCDA97D301375B888A
+
+EMAILJS
+Public Key:         5Tr96XVNe21QxLxmO
+Private Key:        9F6Ev34KS2v6vptoCMQcd
+Notification Email: reservations.oatsandco@gmail.com
+Gmail ID:           info@oatsandco.ae
+Password:           Oats&Co2023
+
+
+

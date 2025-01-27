@@ -23,6 +23,9 @@ const Contactus = () => {
     // }
 
     window.Email.send({
+      //IONOS SMTP DETAILS
+
+      /**
       Host: "smtp.elasticemail.com",
       Username: "info@oatsandco.ae",
       Password: "084DB08E3DBCDC9C29BCDA97D301375B888A",
@@ -32,6 +35,18 @@ const Contactus = () => {
       ReplyFrom: document.getElementById("email").value,
       Subject: "New Signup!!!",
       Body: "And this is the body",
+       */
+
+      //GMAIL SMTP DETAILS
+      Host: "smtp.gmail.com",
+      Username: "reservations.oatsandco@gmail.com",
+      Password: "zzmh lpzz fhpo yaoe",
+      From: "reservations.oatsandco@gmail.com",
+      To: document.getElementById("email").value, // The recipient's email
+      ReplyFrom: document.getElementById("email").value,
+      Subject: "New Signup!!!",
+      Body: "And this is the body",
+      SecureToken: "", // You can omit this as it's not necessary for Gmail
     }).then((message) => alert(message));
 
     // window.Email.send({
