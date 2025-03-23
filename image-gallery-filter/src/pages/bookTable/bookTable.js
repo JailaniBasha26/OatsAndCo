@@ -42,7 +42,7 @@ const BookTable = () => {
 
   function sendEmail(e) {
     e.preventDefault();
-
+    console.log(e, "!@! OATS", e.target);
     if (name == "" || phoneNumber == "" || date == null || time == null) {
       toast.current.show({
         severity: "error",
@@ -52,10 +52,10 @@ const BookTable = () => {
     } else {
       emailjs
         .sendForm(
-          "service_c8fdowb",
-          "template_bdyikgq",
+          "service_c8fdowb", //service
+          "template_bdyikgq", //template
           e.target,
-          "5Tr96XVNe21QxLxmO"
+          "5Tr96XVNe21QxLxmO" //public key
         )
         .then((res) => {
           toast.current.show({

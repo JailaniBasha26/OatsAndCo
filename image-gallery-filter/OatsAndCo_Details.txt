@@ -15,5 +15,8 @@ Notification Email: reservations.oatsandco@gmail.com
 Gmail ID:           info@oatsandco.ae
 Password:           Oats&Co2023
 
-
-
+FTP:
+Server/Host:        home727790061.1and1-data.host
+Port:               990
+User name:          acc1019647575
+Password:           @ats@Coftp123
